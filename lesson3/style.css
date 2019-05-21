@@ -3,7 +3,7 @@ body{
     background-image: url(img/may_b.jpg);
 }
 h1 {
-    text-align: center;
+   
     background-color: red;
     margin: 0;
 }
@@ -17,7 +17,6 @@ h1 {
     font-size: 40px;
     margin: 3px;
     color: #ffffff;
-    border: none;
     background-color: #000000;
 }
 .wk_d {
@@ -40,7 +39,6 @@ h1 {
 .days.celeb {
     background-color: red;
     color: #ffffff;
-    border: 0;
 }
 .m_l {
     color: #d2d2d294;
