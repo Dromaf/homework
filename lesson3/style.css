@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    background-color: red;
+    margin: 0;
+}
+.wk_d.w {
+    background-color: red;
+}
+.days {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin: 3px;
+    color: #ffffff;
+    border: none;
+    background-color: #000000;
+}
+.wk_d {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    font-size: 17px;
+    margin: 3px 2px;
+    border: 1px solid white;
+}
+.weak_d {
+    background-color: #000000;
+    color: #ffffff;
+}
+.main {
+    background-image: url(img/may.jpg);
+    display: inline-block;
+  
+}
+.days.celeb {
+    background-color: red;
+    color: #ffffff;
+    border: 0;
+}
+.m_l {
+    color: #d2d2d294;
+}
+
+.month {
+    text-align: center;
+    background-color: #ff1b1b;
+    color: #ffffff;
+}
+.days.redd {
+    color: #ff0000;
+}
+.days.m_l.redd {
+    color: #ff00007d;
+  
+}
+
+
