@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 1170px;
+    position: relative;
+}
+
+.chessdesk {
+    width: 800px;
+    opacity: 0.8;
+}
+
+.chesssize {
+    height: 85px;
+}
+
+/**WHITE**/
+.kingw {
+    position: absolute;
+    bottom: 50px;
+    right: 645px;
+    z-index: 2;
+}
+
+.kingw1 {
+    position: absolute;
+    bottom: 50px;
+    right: 465px;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.queenw {
+    position: absolute;
+    bottom: 50px;
+    right: 770px;
+}
+
+.pawnw1 {
+    position: absolute;
+    bottom: 140px;
+    right: 1055px;
+}
+
+.pawnw2 {
+    position: absolute;
+    bottom: 140px;
+    right: 970px;
+}
+
+.pawnw3 {
+    position: absolute;
+    bottom: 140px;
+    right: 880px;
+}
+
+.pawnw4 {
+    position: absolute;
+    bottom: 320px;
+    right: 790px;
+}
+
+.pawnw5 {
+    position: absolute;
+
+    bottom: 230px;
+    right: 610px;
+
+}
+
+.pawnw6 {
+    position: absolute;
+    bottom: 140px;
+    right: 610px;
+}
+
+.pawnw7 {
+    position: absolute;
+    bottom: 140px;
+    right: 520px;
+
+}
+
+.pawnw8 {
+    position: absolute;
+    bottom: 140px;
+    right: 430px;
+}
+
+
+.horsewr {
+    position: absolute;
+    bottom: 230px;
+    right: 860px;
+}
+
+.horsewl {
+    position: absolute;
+    top: 310px;
+    right: 683px;
+}
+
+.rookw1 {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    right: 445px;
+}
+
+.rookw1_1 {
+    position: absolute;
+    bottom: 50px;
+    right: 630px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+
+.rookw2 {
+    position: absolute;
+    bottom: 50px;
+    right: 1050px;
+}
+
+.bishopw1 {
+    position: absolute;
+    bottom: 50px;
+    right: 860px;
+}
+
+.bishopw2 {
+    position: absolute;
+    bottom: 140px;
+}
+
+/**BLACK**/
+.kingb {
+    position: absolute;
+    top: 40px;
+    right: 645px;
+    z-index: 2;
+}
+.kingb1 {
+    position: absolute;
+    top: 40px;
+    right: 460px;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.queenb {
+    position: absolute;
+    top: 40px;
+    right: 770px;
+}
+
+.pawnb1 {
+    position: absolute;
+    top: 130px;
+    right: 1055px;
+}
+
+.pawnb2 {
+    position: absolute;
+    top: 220px;
+    right: 880px;
+}
+
+.pawnb3 {
+    position: absolute;
+    top: 130px;
+    right: 880px;
+}
+
+.pawnb4 {
+    position: absolute;
+    top: 310px;
+    right: 790px;
+}
+
+.pawnb5 {
+    position: absolute;
+    bottom: 50px;
+    right: 300px;
+
+}
+
+.pawnb6 {
+    position: absolute;
+    top: 130px;
+    right: 610px;
+}
+
+.pawnb7 {
+    position: absolute;
+    top: 130px;
+    right: 520px;
+
+}
+
+.pawnb8 {
+    position: absolute;
+    top: 130px;
+    right: 430px;
+}
+
+
+.horsebr {
+    position: absolute;
+    bottom: 320px;
+    right: 680px;
+}
+
+.horsebl {
+    position: absolute;
+    top: 220px;
+    right: 593px;
+}
+
+.rookb1 {
+    position: absolute;
+    top: 40px;
+    right: 445px;
+    z-index: 1;
+}
+
+.rookb1_1 {
+    position: absolute;
+    top: 40px;
+    right: 630px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.rookb2 {
+    position: absolute;
+    top: 40px;
+    right: 1050px;
+}
+
+.bishopb1 {
+    position: absolute;
+    top: 130px;
+    right: 770px;
+}
+
+.bishopb2 {
+    position: absolute;
+    top: 130px;
+    right: 680px;
+}
+
+.circle {
+    position: absolute;
+    top: 310px;
+    left: 400px;
+}
+
+.circle1 {
+    position: absolute;
+    bottom: 230px;
+    left: 220px;
+}
+
+.kres {
+    position: absolute;
+    bottom: 320px;
+    right: 685px;
+}
+
+.kres1 {
+    position: absolute;
+    top: 130px;
+    right: 595px;
+}
+
+.kres2 {
+    position: absolute;
+    top: 130px;
+    right: 775px;
+}
+
+.arrow {
+    position: relative;
+    right: 335px;
+    bottom: 45px;
+}
+
+.arrow1 {
+    position: absolute;
+    right: 480px;
+    top: 45px;
+}
