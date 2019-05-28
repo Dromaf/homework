@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    background: #808080;
+    padding: 30px 0;
+}
+
+#footer {
+    background: #808080;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+#main {
+    background: #cecece;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main .sidebar {
+    width: 225px;
+    float: left;
+    background: rgba(255, 255, 255, 0.56);
+    color: #fff;
+}
+
+#main .content {
+    margin-left: 240px;
+    color: #808080;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#main .sidebar div {
+    background-color: #2ba5e6;
+    margin: 5px;
+}
+
+#main .sidebar a:link {
+    display: block;
+   
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid;
+}
+#main .sidebar a:visited {
+    background: #2ba5e6;
+    color: #fff;
+}
+#main .sidebar a:hover {
+    color: #2ba5e6;
+    background: #fff;
+    border: 1px solid;
+}
+
+#main .sidebar a:active {
+    background: #157aae;
+    color: #fff;
+}
+
+#main .menu a:focus {
+    background: #1471a0;
+    color: rgb(253, 242, 242);
+}
+/*Menu*/
+#header .menu {
+    background: rgba(255, 255, 255, 0.56);
+}
+
+
+#header .menu div {
+    background-color: #2ba5e6;
+    margin: 5px;
+    display: inline-block;
+    width: 220px;
+}
+
+#header .menu a:link {
+    display:block;
+   
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid;
+}
+#header .menu a:visited {
+    background: #2ba5e6;
+    color: #fff;
+}
+#header .menu a:hover {
+    color: #2ba5e6;
+    background: #fff;
+    border: 1px solid;
+}
+
+#header .menu a:active {
+    background: #157aae;
+    color: #fff;
+}
+
+#header .menu a:focus {
+    background: #1471a0;
+    color: rgb(253, 242, 242);
+}
