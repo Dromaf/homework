@@ -5,6 +5,7 @@ body {
 .main {
     width: 1170px;
     position: relative;
+    margin: 0 auto;
 }
 
 .chessdesk {
