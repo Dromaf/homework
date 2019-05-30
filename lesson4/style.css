@@ -29,11 +29,15 @@ body{
     padding-bottom: 10px;
 }
 
+#main .sidebar .menu-l {
+    background: rgba(255, 255, 255, 0.56);
+    padding: 1px;
+}
+
 #main .sidebar {
     width: 225px;
     float: left;
-    background: rgba(255, 255, 255, 0.56);
-    color: #fff;
+   
 }
 
 #main .content {
