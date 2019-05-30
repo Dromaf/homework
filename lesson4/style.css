@@ -52,7 +52,7 @@ body{
     margin: 5px;
 }
 
-#main .sidebar a:link {
+#main .menu-l a:link {
     display: block;
    
     padding: 10px;
@@ -64,22 +64,22 @@ body{
     font-weight: 600;
     border: 1px solid;
 }
-#main .sidebar a:visited {
+#main .menu-l a:visited {
     background: #2ba5e6;
     color: #fff;
 }
-#main .sidebar a:hover {
+#main .menu-l a:hover {
     color: #2ba5e6;
     background: #fff;
     border: 1px solid;
 }
 
-#main .sidebar a:active {
+#main .menu-l a:active {
     background: #157aae;
     color: #fff;
 }
 
-#main .sidebar a:focus {
+#main .menu-l a:focus {
     background: #1471a0;
     color: rgb(253, 242, 242);
 }
