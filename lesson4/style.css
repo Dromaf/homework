@@ -79,7 +79,7 @@ body{
     color: #fff;
 }
 
-#main .menu a:focus {
+#main .sidebar a:focus {
     background: #1471a0;
     color: rgb(253, 242, 242);
 }
