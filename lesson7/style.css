@@ -56,7 +56,6 @@ ul.menu__items__top {
 ul.menu__items__top li {
     font-size: 12px;
     margin-right: 25px;
-    display: block;
     float: left;
     list-style-type: none;
 }
