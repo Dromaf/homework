@@ -125,7 +125,7 @@ article {
 article p {
     text-align: justify;
 }
-footer {
+.footer {
     background: #000;
     padding: 10px 0;
     text-align: center;
