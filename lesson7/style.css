@@ -9,13 +9,13 @@ a {
     text-decoration: none;
 }
 
-h1,
+
 h2 {
     margin: 0;
 }
 
-.menu__items__top ul,
-.menu__items__left ul {
+.menu__items__top ,
+.menu__items__left {
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,7 @@ h2 {
 
 header {
     background: #000;
-    padding: 30px 0;
+    padding: 30px 0 0 0;
 }
 
 .logo {
@@ -50,23 +50,23 @@ header {
     float: right;
 }
 
-nav.menu__items__top {
+ul.menu__items__top {
     padding-top: 20px;
 }
 
-.menu__items__top li {
+ul.menu__items__top li {
     font-size: 12px;
     margin-right: 25px;
     display: block;
     float: left;
 }
 
-.menu__items__top li a {
+ul.menu__items__top li a {
     color: #fff;
     padding: 12px 0;
 }
 
-.menu__items__top li a:hover {
+ul.menu__items__top li a:hover {
     color: #6bff3d;
     border-top: 1px solid #6bff3d;
     border-bottom: 1px solid #6bff3d;
@@ -95,6 +95,23 @@ main {
     padding-bottom: 10px;
 }
 
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
+.news__list li a {
+    color: #fff;
+    padding: 12px 0;
+}
+
+.news__list li a:hover {
+    text-decoration: underline;
+}
+
+.news__list li {
+    margin: 5px 0;
+}
+
 aside {
     float: left;
     width: 150px;
@@ -105,7 +122,9 @@ aside {
 article {
     margin-left: 165px;
 }
-
+article p {
+    text-align: justify;
+}
 footer {
     background: #000;
     padding: 10px 0;
@@ -116,6 +135,7 @@ footer {
 article img {
     height: 150px;
     display: block;
-    margin: 0 auto;
+    float: left;
+    margin: 0px 10px 0px 0;
 
 }
