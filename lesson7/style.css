@@ -9,7 +9,6 @@ a {
     text-decoration: none;
 }
 
-
 h2 {
     margin: 0;
 }
@@ -59,6 +58,7 @@ ul.menu__items__top li {
     margin-right: 25px;
     display: block;
     float: left;
+    list-style-type: none;
 }
 
 ul.menu__items__top li a {
@@ -125,7 +125,7 @@ article {
 article p {
     text-align: justify;
 }
-.footer {
+footer {
     background: #000;
     padding: 10px 0;
     text-align: center;
