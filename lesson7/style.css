@@ -28,7 +28,7 @@ h2 {
     clear: both;
 }
 
-header {
+.header {
     background: #000;
     padding: 30px 0 0 0;
 
@@ -97,7 +97,6 @@ ul.menu__items__top li a:hover {
 
 main {
     background: #000;
-    padding-top: 25px;
     padding-bottom: 10px;
 }
 
@@ -131,10 +130,16 @@ aside {
 article {
     margin-left: 165px;
 }
-article p {
+.content p {
     text-align: justify;
 }
-footer {
+
+p.news_list_title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
     background: #000;
     padding: 10px 0;
     text-align: center;
