@@ -96,13 +96,14 @@ ul.menu__items__top li a:hover {
 
 main {
     background: #000;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
 }
 
 .title {
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
 }
 .news__list li a {
     color: #fff;
