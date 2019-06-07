@@ -49,6 +49,12 @@ header {
     float: right;
 }
 
+ul.menu__items__top::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 ul.menu__items__top {
     padding-top: 20px;
 }
