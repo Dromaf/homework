@@ -106,18 +106,19 @@ main {
     text-align: center;
     margin: 0;
 }
+
+.news__list li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
 .news__list li a {
     color: #fff;
-    padding: 12px 0;
-    font-size: 14px;
+  
 }
 
 .news__list li a:hover {
     text-decoration: underline;
-}
-
-.news__list li {
-    margin: 5px 0;
 }
 
 aside {
