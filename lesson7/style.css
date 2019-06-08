@@ -42,8 +42,11 @@ h1, h2 {
     height: 70px;
 }
 
-.phone a {
+.phone {
     padding-top: 30px;
+}
+
+.phone a {
     font-size: 18px;
     color: #6bff3d;
     float: right;
