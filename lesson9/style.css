@@ -1,0 +1,90 @@
+.main {
+    display: inline-block;
+    padding: 1px;
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+}
+
+.table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    border-spacing: 0;
+    font-size: 14px;
+}
+
+.table td {
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+caption {
+    font-weight: bold;
+    padding: 5px;
+}
+
+td {
+    border: 2px solid #000;
+}
+
+.total {
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.dir {
+    text-align: center;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.border {
+    border:0;
+}
+
+.border-top {
+    border-top: 1px solid;
+}
+.border-top .wtr{
+    width: 110px;
+}
+.border-top .wtr1{
+    width: 165px;
+}
+
+.right {
+    text-align: right;
+    vertical-align: top;
+    border-top: 0;
+    border-bottom: 0;
+}
+td.iraqwar.top.border {
+    border-left: 2px solid;
+}
+.partyid3 {
+    text-align: center;
+    width: 215px;
+}
+
+td.border.thbo {
+    border-left: 2px solid #000;
+    border-bottom: 2px solid;
+    width: 70px;
+}
+
+.border-bottom{
+    border-bottom: 2px solid;
+}
+
+td.right {
+    padding-right: 10px;
+}
+
+td.right.r {
+    border-right: 1px solid #000;
+}
+
+td.right.l {
+    border-left: 0;
+}

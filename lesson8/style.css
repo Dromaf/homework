@@ -1,0 +1,156 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.menu__items__top ,
+.menu__items__left {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background: #000;
+    padding: 30px 0;
+}
+
+.logo {
+    float: left;
+}
+
+
+.logo img {
+    height: 70px;
+}
+
+.phone {
+    padding-top: 30px;
+}
+
+.phone a {
+    font-size: 18px;
+    color: #6bff3d;
+    float: right;
+}
+
+ul.menu__items__top::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul.menu__items__top {
+    padding-top: 20px;
+}
+
+ul.menu__items__top li {
+    font-size: 12px;
+    margin-right: 25px;
+    float: left;
+    list-style-type: none;
+}
+
+ul.menu__items__top li a {
+    color: #fff;
+    padding: 12px 0;
+}
+
+ul.menu__items__top li a:hover {
+    color: #6bff3d;
+    border-top: 1px solid #6bff3d;
+    border-bottom: 1px solid #6bff3d;
+}
+
+.menu__items__left li {
+    font-size: 12px;
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+.menu__items__left li a {
+    color: #fff;
+    padding: 12px 0;
+}
+
+.menu__items__left li a:hover {
+    color: #6bff3d;
+    border-top: 1px solid #6bff3d;
+    border-bottom: 1px solid #6bff3d;
+}
+
+main {
+    background: #000;
+    padding-bottom: 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.news__list li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.news__list li a {
+    color: #fff;
+  
+}
+
+.news__list li a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    float: left;
+    width: 150px;
+    border-right: 1px solid #fff;
+
+}
+
+article {
+    margin-left: 165px;
+}
+.content p {
+    text-align: justify;
+}
+
+p.news_list_title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    background: #000;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.text__img {
+    height: 150px;
+    float: left;
+    margin: 0px 10px 0px 0;
+
+}
