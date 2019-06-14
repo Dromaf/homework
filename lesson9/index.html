@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,72 +8,82 @@
     <title>Table</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="main">
-    <table class="table">
-        <caption>iraq Was Iraq was worth the cost * partyid3 Party self-identificayion - 3 point scale Crosstabulation</caption>
-        <tbody>
-            <tr>
-                <td colspan="3" rowspan="2"></td>
-                <td colspan="3" rowspan="1"  class="partyid3">partyid3 Party self-identificayion - 3 point scale</td>
-                <td colspan="1" rowspan="2" class="total">Total</td>
-            </tr>
-            <tr class="dir">
-                <td>1.00<br />
-                Democrat</td>
-                <td>2.00<br />
-                Independent</td>
-                <td>3.00<br />
-                Republican</td>
-            </tr>
-            <tr>
-                <td colspan="1" rowspan="4" class="iraqwar top border">iraq Was Iraq war worth the cost</td>
-                <td colspan="1" rowspan="2" class="top border">1.00 Worth it</td>
-                <td class="border">Count</td>
-                <td class="right r">57</td>
-                <td class="right l">151</td>
-                <td class="right r">294</td>
-                <td class="right l">502</td>
-            </tr>
-            <tr>
-                <td class="border">% within partyid3 Party self-identificayion - 3 point scale</td>
-                <td class="right r">8.2%</td>
-                <td class="right l">18.9%</td>
-                <td class="right r">55.7%</td>
-                <td class="right l">24.8%</td>
-            </tr>
-            <tr class="border-top">
-                <td colspan="1" rowspan="2" class="top border wtr">5.00 Not worth it</td>
-                <td class="border wtr1">Count</td>
-                <td class="right r">639</td>
-                <td class="right l">646</td>
-                <td class="right r">234</td>
-                <td class="right l">1519</td>
-            </tr>
-            <tr>
-                <td class="border">% within partyid3 Party self-identificayion - 3 point scale</td>
-                <td class="right r">91.8%</td>
-                <td class="right l">81.1%</td>
-                <td class="right r">44.3%</td>
-                <td class="right l">75.2%</td>
-            </tr>
-            <tr class="border-top">
-                <td colspan="2" rowspan="2" class="border thbo">Total</td>
-                <td class="border">Count</td>
-                <td class="right r">696</td>
-                <td class="right l">797</td>
-                <td class="right r">528</td>
-                <td class="right l">2021</td>
-            </tr>
-            <tr class="border-bottom">
-                <td class="border">% within partyid3 Party self-identificayion - 3 point scale</td>
-                <td class="right r">100.0%</td>
-                <td class="right l">100.0%</td>
-                <td class="right r">100.0%</td>
-                <td class="right l">100.0%</td>
-            </tr>
-        </tbody>
-    </table>
-</div>   
+    <div class="main">
+        <table class="table">
+            <caption>iraq Was Iraq was worth the cost * partyid3 Party self-identificayion - 3 point scale
+                Crosstabulation</caption>
+            <thead>
+                <tr>
+                    <td colspan="3" rowspan="2" class="emptytd"></td>
+                    <td colspan="3" rowspan="1" class="partyid3">partyid3 Party self-identificayion - 3 point scale</td>
+                    <td colspan="1" rowspan="2" class="total">Total</td>
+                </tr>
+
+                <tr class="dir">
+                    <td>1.00<br />
+                        Democrat</td>
+                    <td>2.00<br />
+                        Independent</td>
+                    <td>3.00<br />
+                        Republican</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="1" rowspan="4" class="iraqwar top border">iraq Was Iraq war worth the cost</td>
+                    <td colspan="1" rowspan="2" class="top border">1.00 Worth it</td>
+                    <td class="border">Count</td>
+                    <td class="right l">57</td>
+                    <td class="right">151</td>
+                    <td class="right">294</td>
+                    <td class="right">502</td>
+                </tr>
+                <tr>
+                    <td class="border">% within partyid3 Party self-identificayion - 3 point scale</td>
+                    <td class="right l">8.2%</td>
+                    <td class="right">18.9%</td>
+                    <td class="right">55.7%</td>
+                    <td class="right">24.8%</td>
+                </tr>
+                <tr class="border-top">
+                    <td colspan="1" rowspan="2" class="top border wtr">5.00 Not worth it</td>
+                    <td class="border wtr1">Count</td>
+                    <td class="right l">639</td>
+                    <td class="right">646</td>
+                    <td class="right">234</td>
+                    <td class="right">1519</td>
+                </tr>
+                <tr>
+                    <td class="border">% within partyid3 Party self-identificayion - 3 point scale</td>
+                    <td class="right l">91.8%</td>
+                    <td class="right">81.1%</td>
+                    <td class="right">44.3%</td>
+                    <td class="right">75.2%</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="border-top">
+                    <td colspan="2" rowspan="2" class="border thbo">Total</td>
+                    <td class="border">Count</td>
+                    <td class="right l">696</td>
+                    <td class="right">797</td>
+                    <td class="right">528</td>
+                    <td class="right">2021</td>
+                </tr>
+
+                <tr class="border-bottom">
+                    <td class="border">% within partyid3 Party self-identificayion - 3 point scale</td>
+                    <td class="right l">100.0%</td>
+                    <td class="right">100.0%</td>
+                    <td class="right">100.0%</td>
+                    <td class="right">100.0%</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
 </body>
+
 </html>
