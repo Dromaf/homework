@@ -7,14 +7,8 @@
 
 .table {
     border-collapse: collapse;
-    border: 1px solid #000;
     border-spacing: 0;
     font-size: 12px;
-}
-
-.table td {
-    padding-bottom: 10px;
-    padding-left: 5px;
 }
 
 caption {
@@ -29,15 +23,24 @@ tbody {
     border-bottom: 1px solid #000;
 }
 
-.emptytd{
-    border-right: 2px solid #000;
-}
 tfoot {
     border: 2px solid #000;
     border-top: 1px solid #000;
 }
+
+.emptytd{
+    border-right: 2px solid #000;
+}
+
 td {
     border: 1px solid #000;
+    padding-bottom: 10px;
+    padding: 5px;
+    padding-top: 0;
+}
+
+td.border.thbo {
+    vertical-align: top;
 }
 
 .total {
@@ -72,15 +75,16 @@ td {
     padding-right: 10px;
     vertical-align: top;
     border-bottom: 0;
-    border-top: 0;
-   
+    border-top: 0; 
 }
-
-.partyid3 {
-    text-align: center;
-    width: 215px;
-}
-
 td.right.l{
     border-left: 2px solid #000;
 }
+td.iraqwar.top.border {
+    width: 145px;
+}
+.partyid3 {
+    text-align: center;
+    width: 195px;
+}
+
