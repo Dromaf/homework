@@ -231,6 +231,7 @@ a {
     border-radius: 3px;
     height: 190px;
     width: 403px;
+    display: block;
 }
 
 .home-news-item-title h3 {
@@ -239,7 +240,7 @@ a {
     line-height: 1.2;
     text-decoration: none;
     text-align: left;
-    padding: 25px 26px 0px 26px;
+    padding: 26px 26px 0px 26px;
     margin: 0;
 
 }
