@@ -279,11 +279,12 @@ a.home-news-item-title {
     color: #fff;
     line-height: 1.2;
     font-weight: 300;
+    padding-left: 10px;
 }
 
 .footer-col.logo-col {
-    width: 312px;
-    margin-right: 100px;
+    width: 322px;
+    margin-right: 90px;
 }
 
 .footer-col.menu-col {
