@@ -279,7 +279,6 @@ a.home-news-item-title {
     color: #fff;
     line-height: 1.2;
     font-weight: 300;
-    text-align: left;
 }
 
 .footer-col.logo-col {
@@ -356,7 +355,6 @@ time {
 time {
     font-weight: bold;
     color: #080808;
-    display: block;
 }
 
 .footer-address {
