@@ -326,7 +326,6 @@ h4.footer-col-title {
 a.footer-news-title {
     color: #fff;
     line-height: 1.2;
-    text-align: left;
     font-weight: 300;
     text-decoration: none;
     max-width: 120px;
@@ -343,7 +342,6 @@ a.footer-news-title {
 .footer-news-image,
 .footer-news-container-title {
     display: inline-block;
-    vertical-align: top;
 }
 
 .footer-news-container-title {
