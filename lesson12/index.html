@@ -12,20 +12,20 @@
 <body>
     <div class="dataform">
         <form action="http://nickblack.pro/send.php" class="form" method="POST">
-            <fieldset>
-                <legend>Контактная информация</legend>
+            <fieldset class="fieldset">
+                <legend class="legend">Контактная информация</legend>
                 <p><label>Имя: <input type="text" name="fname" required></label></p>
                 <p><label>Фамилия: <input type="text" name="sname"></label></p>
                 <p><label>Телефон: <input type="tel" name="phone" required></label></p>
                 <p><label>E-mail: <input type="email" name="mail"></label></p>
                 <p><label>Email получателя: <input type="email" name="mymail" value="pdvxai@gmail.com" required readonly></label></p>
             </fieldset>
-            <fieldset>
-                <legend>Персональная информация</legend>
+            <fieldset class="fieldset">
+                <legend class="legend">Персональная информация</legend>
                 <p><label>Возраст: <input type="number" name="age" min="1" max="100" step="1"></label></p>
                 <p><label>Дата рождения: <input type="date" name="bday"></label></p>
+                <p><input type="submit" value="Отправить"></p>
             </fieldset>
-          <input type="submit" value="Отправить">
         </form>
     </div>
 </body>
