@@ -18,45 +18,7 @@ a {
     
 }
 /* HEADER */
-.hamburger {
-    width: 32px;
-    display: inline-block;
-    cursor: pointer; }
 
-.hamburger-box {
-    width: 40px;
-    display: inline-block;
-    position: relative; }
-  
-.hamburger-inner {
-    display: block;
-    top: 50%;
-    margin-top: -2px; 
-  }
-.hamburger-inner, .hamburger-inner::before {
-    content: "";
-      display: block; 
-      width: 22px;
-      top: -5px;
-      height: 3px;
-      background-color: #898691;
-      border-radius: 0px;
-      position: absolute;
-     }
-  
-.hamburger-inner::after {
-    content: "";
-    bottom: -8px; 
-      display: block; 
-        width: 22px;
-        height: 3px;
-        background-color: #898691;
-        border-radius: 0px;
-        position: absolute;
-      }
-      
-.hamburger-inner::before {
-      top: -8px; }
 
 
 #header{
@@ -75,9 +37,46 @@ a {
     color: #898691;
     text-transform: uppercase;
 }
-.header-menu img {
-    padding-right: 10px;
-}
+
+.header-menu-hamburger {
+    width: 32px;
+    display: inline-block;
+    cursor: pointer; }
+
+.header-menu-hamburger-box {
+    width: 40px;
+    display: inline-block;
+    position: relative; }
+  
+.header-menu-hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px; 
+  }
+.header-menu-hamburger-inner, .header-menu-hamburger-inner::before {
+    content: "";
+      display: block; 
+      width: 22px;
+      top: -5px;
+      height: 3px;
+      background-color: #898691;
+      border-radius: 0px;
+      position: absolute;
+     }
+  
+.header-menu-hamburger-inner::after {
+    content: "";
+    bottom: -8px; 
+      display: block; 
+        width: 22px;
+        height: 3px;
+        background-color: #898691;
+        border-radius: 0px;
+        position: absolute;
+      }
+      
+.header-menu-hamburger-inner::before {
+      top: -8px; }
 
 a.header-search-i::after {
     content: url(img/search-i.png);
@@ -105,10 +104,6 @@ span.header-logo-desc {
     text-transform: uppercase;
     position: relative;
     padding-right: 32px;
-}
-
-.header-search img {
-    padding-left: 10px;
 }
 
 /*CONENT*/
