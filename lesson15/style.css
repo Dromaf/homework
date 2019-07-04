@@ -163,7 +163,7 @@ span.header-logo-desc {
   
 article.home-newsaccesories-item {
     background: url(img/accessories-news.jpg) no-repeat right;
-    background-color: #48becc;
+    background-color: rgb(72, 190, 204);
     height: 484px;
     position: relative;
     flex-basis: 60.75%;
