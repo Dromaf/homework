@@ -299,7 +299,7 @@ article.home-newsmedia-item.home-newsmedia-item3 {
 #footer .wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 #footer {
