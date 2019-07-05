@@ -108,7 +108,7 @@ a.header-search-i::after {
 .home-contenttop-item-title {
     font-weight: bold;
     color: #fff;
-    padding: 0 0 7px 40px;
+    padding: 0 0 7px 35px;
     font-size: 72px;
     margin: 0;
     
@@ -145,7 +145,7 @@ article.home-newsaccesories-item {
     margin: 0;
     font-size: 48px;
     color: #fff;
-    padding: 0 0 8px 40px;
+    padding: 0 0 8px 35px;
     font-weight: bold;
    
 }
@@ -237,7 +237,7 @@ article.home-newsmedia-item.home-newsmedia-item1 h3.home-newsmedia-item-title {
 article.home-newsmedia-item.home-newsmedia-item3 h3.home-newsmedia-item-title {
     font-size: 36px;
     color: #fff;
-    padding-left: 40px;
+    padding-left: 38px;
     margin-bottom: 15px;
     margin-top: 0;
 }
