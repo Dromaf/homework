@@ -84,14 +84,14 @@ a.header-search-i::after {
     margin-left: 12px;
 }
 
-span.header-logo-title {
+.header-logo-title {
     display: block;
     font-size: 48px;
     color: #fff;
     font-weight: bold;
 }
 
-span.header-logo-desc {
+.header-logo-desc {
     display: block;
     color: #898691;
     font-size: 13px;
@@ -320,6 +320,7 @@ article.home-newsmedia-item.home-newsmedia-item2 {
  
 article.home-newsmedia-item.home-newsmedia-item3 {
     background: url(img/cameras-big-info.jpg) no-repeat center center;
+    background-size: cover;
     height: 420px;
     position: relative;
     flex-basis: 45%;
