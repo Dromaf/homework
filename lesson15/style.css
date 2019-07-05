@@ -98,13 +98,17 @@ a.header-search-i::after {
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
-    padding: 40px 0px 10px 40px;
+    padding: 35px 0px 10px 40px;
+}
+
+.home-contenttop-item .home-name {
+    padding-top: 37px;
 }
 
 .home-contenttop-item-title {
     font-weight: bold;
     color: #fff;
-    padding: 0 0 27px 40px;
+    padding: 0 0 7px 40px;
     font-size: 72px;
     margin: 0;
     
@@ -122,7 +126,7 @@ a.header-search-i::after {
     font-size: 20px;
     color: #fff;
     font-weight: bold;
-    padding: 8px;
+    padding: 6px 8px;
     border: 3px solid #ffe18f;
     position: absolute;
     bottom: 40px;
@@ -141,7 +145,7 @@ article.home-newsaccesories-item {
     margin: 0;
     font-size: 48px;
     color: #fff;
-    padding: 0 0 15px 40px;
+    padding: 0 0 8px 40px;
     font-weight: bold;
    
 }
@@ -166,7 +170,7 @@ h2.home-newsaccesories-subscribe-title {
     color: #fff;
     line-height: 1.2;
     margin: 0;
-    margin-top: 75px;
+    margin-top: 68px;
     text-align: center;
 }
 
@@ -197,21 +201,21 @@ input.subscribe {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
-    padding: 13px 0;
+    padding: 10px 0;
     border: none;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 
 input.mail {
     display: block;
-    margin: 40px auto 20px auto;
+    margin: 36px auto 20px auto;
     width: 74%;
     text-align: center;
     color: #ffd9d1;
     background-color: transparent;
     border: solid 3px #ffd9d1;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -220,28 +224,29 @@ article.home-newsmedia-item.home-newsmedia-item2 h3.home-newsmedia-item-title {
     font-size: 36px;
     text-align: center;
     color: #fff;
-    margin-top: 130px;
+    margin-top: 105px;
 }
 
 article.home-newsmedia-item.home-newsmedia-item1 h3.home-newsmedia-item-title {
     font-size: 36px;
     text-align: center;
     color: #fff;
-    margin-top: 145px;
+    margin-top: 125px;
 }
 
 article.home-newsmedia-item.home-newsmedia-item3 h3.home-newsmedia-item-title {
     font-size: 36px;
     color: #fff;
     padding-left: 40px;
-    margin-top: 7px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 
 p.home-newsmedia-item-descrt {
     color: #fff;
     padding-left: 40px;
     font-size: 20px;
+    margin: 0;
 }
 
 article.home-newsmedia-item.home-newsmedia-item1 .home-name {
@@ -311,7 +316,7 @@ span.footer-copyright-text {
 }
 
 a.footer-socialb-facebook {
-    margin-right: 23px;
+    margin-right: 18px;
 }
 
 /*ADAPTIVE*/
