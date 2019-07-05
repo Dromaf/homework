@@ -220,6 +220,10 @@ input.mail {
     font-weight: bold;
 }
 
+input[type="email"]::placeholder {
+    color: #ffd9d1;
+}
+
 article.home-newsmedia-item.home-newsmedia-item2 h3.home-newsmedia-item-title {
     font-size: 36px;
     text-align: center;
