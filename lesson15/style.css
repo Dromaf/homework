@@ -34,54 +34,15 @@ a {
     font-weight: bold;
     color: #898691;
     text-transform: uppercase;
+    position: relative;
+    padding-left: 32px;
 }
 
-.header-menu-hamburger {
-    width: 32px;
-    display: inline-block;
-    cursor: pointer; }
-
-.header-menu-hamburger-box {
-    width: 40px;
-    display: inline-block;
-    position: relative; }
-  
-.header-menu-hamburger-inner {
-    display: block;
-    top: 50%;
-    margin-top: -2px; 
-  }
-.header-menu-hamburger-inner, .header-menu-hamburger-inner::before {
-    content: "";
-    display: block; 
-    width: 22px;
-    top: -5px;
-    height: 3px;
-    background-color: #898691;
-    border-radius: 0px;
+a.header-menu-toggle::before {
+    content: url(img/shape-i.png);
+    bottom: -3px;
     position: absolute;
-}
-  
-.header-menu-hamburger-inner::after {
-    content: "";
-    bottom: -8px; 
-    display: block; 
-    width: 22px;
-    height: 3px;
-    background-color: #898691;
-    border-radius: 0px;
-    position: absolute;
-}
-      
-.header-menu-hamburger-inner::before {
-    top: -8px; 
-}
-
-a.header-search-i::after {
-    content: url(img/search-i.png);
-    bottom: -5px;
-    position: absolute;
-    margin-left: 12px;
+    margin-left: -32px;
 }
 
 .header-logo-title {
@@ -104,6 +65,14 @@ a.header-search-i::after {
     text-transform: uppercase;
     position: relative;
     padding-right: 32px;
+}
+
+
+a.header-search-i::after {
+    content: url(img/search-i.png);
+    bottom: -5px;
+    position: absolute;
+    margin-left: 12px;
 }
 
 /*CONENT*/
