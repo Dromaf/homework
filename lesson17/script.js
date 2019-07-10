@@ -15,8 +15,8 @@ num += 12;
 num -= 14;
 num *= 5;
 num /= 7;
-num += 1; /*num++*/
-num -= 1; /*num--*/
+num += 1; /* num++ / ++num */
+num -= 1; /* num-- / --num */
 
 alert(num);
 
