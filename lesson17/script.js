@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* TASK1 */
 
@@ -42,6 +42,7 @@ d = 7;
 result = c + d;
 
 console.log(result);
+
 /* TASK5 */
 
 let name = "Dmitriy";
