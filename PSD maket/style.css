@@ -524,6 +524,8 @@ h2.clients-content-content-title {
 
 img.clients-content-container-img {
     display: block;
+    border-radius: 50%;
+    box-shadow: 0 0 41px rgba(5, 62, 82, 0.61);
 }
 
 span.clients-content-container-name {
