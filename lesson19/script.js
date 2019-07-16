@@ -38,13 +38,15 @@ switch(value){
 }
 /*TASK4*/
 
-function min(){
-    let a = (prompt("Ввведите число a", ""));
-    let b = (prompt("Ввведите число b", ""));
-    if (a < b) {
-        return console.log(`Меньше число ${a}`);
-    } else if (a > b){
-        return console.log(`Меньше число ${b}`);
+
+function min(aa, bb){
+  
+    if (aa < bb) {
+        return console.log(`Меньше число ${aa}`);
+    } else if (aa > bb){
+        return console.log(`Меньше число ${bb}`);
     }
 }
-min();
+
+min(3,5);
+min(5,-1);
