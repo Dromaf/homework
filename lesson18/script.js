@@ -5,7 +5,7 @@
 
 let a = '1';
 
-if (a == true && a == '1') {
+if (a === '1') {
     console.log('Верно');
 } else {
     console.log('Неверно');
@@ -13,7 +13,7 @@ if (a == true && a == '1') {
 
 a = 1;
 
-if (a == true && a == '1') {
+if (a === '1') {
     console.log('Верно');
 } else {
     console.log('Неверно');
@@ -21,7 +21,7 @@ if (a == true && a == '1') {
 
 a = 3;
 
-if (a == true && a == '1') {
+if (a === '1') {
     console.log('Верно');
 } else {
     console.log('Неверно');
@@ -77,7 +77,7 @@ a > 3 && a < 12 || b >= 7 && b < 15 ? console.log('Верно') : console.log('�
 
 let month = prompt("Введите любое число от 1 до 12", "");
 
-if (month >= 2 && month == 12){
+if (month <= 2 && month >= 1 || month == 12){
     console.log("Вы ввели месяц сезона 'Зима'");
 } else if (month > 2 && month <= 5 ){
     console.log("Вы ввели месяц сезона 'Весна'");
@@ -104,5 +104,4 @@ for (; i <= 100; i++) {
     if (i % 2 == 0) {
         console.log(i);
     }
-    i++;
 }
