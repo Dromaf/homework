@@ -7,7 +7,7 @@ body {
 
 a {
     color: #fff;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .wrapper {
@@ -16,7 +16,7 @@ a {
     padding: 0 10px;
 }
 
-.wrapper-w{
+.wrapper-w {
     max-width: 1830px;
     margin: 0 auto;
 }
@@ -32,9 +32,11 @@ a {
     background: url(img/header-main-girl.png) no-repeat center center;
     min-height: 790px;
 }
+
 .header-logo {
     position: relative;
 }
+
 .header-logo-title {
     font-size: 36px;
     line-height: 1;
@@ -51,7 +53,7 @@ img.header-logo-img {
     display: inline-block;
     position: absolute;
     left: 10px;
-    
+
 }
 
 a.header-search-phone {
@@ -61,7 +63,7 @@ a.header-search-phone {
     font-weight: 500;
     margin-right: 20px;
     position: relative;
-    
+
 }
 
 a.header-search-phone::before {
@@ -69,7 +71,7 @@ a.header-search-phone::before {
     bottom: -10px;
     position: absolute;
     margin-left: -35px;
-    
+
 }
 
 a.header-search-phone:hover {
@@ -98,6 +100,7 @@ h1.header-content-item-title {
     color: #fff;
     margin: 0;
 }
+
 p.header-content-item-descr {
     font-size: 30px;
     margin-top: 30px;
@@ -107,38 +110,36 @@ p.header-content-item-descr {
     line-height: 1.5;
     text-shadow: 0px 0px 3.5px rgba(0, 55, 83, 0.69);
 }
-  
+
 a.contact-popup {
     display: inline-block;
-    font-weight: 600;
     line-height: 1;
     padding: 30px 60px;
     border-radius: 40px;
-    font-size: 18px;
-    background-image: -moz-linear-gradient( 180deg, rgb(242,5,42) 0%, rgb(255,78,121) 100%);
-    background-image: -webkit-linear-gradient( 180deg, rgb(242,5,42) 0%, rgb(255,78,121) 100%);
-    background-image: -ms-linear-gradient( 180deg, rgb(242,5,42) 0%, rgb(255,78,121) 100%);
+    font-size: 24px;
+    background-image: -moz-linear-gradient(180deg, rgb(242, 5, 42) 0%, rgb(255, 78, 121) 100%);
+    background-image: -webkit-linear-gradient(180deg, rgb(242, 5, 42) 0%, rgb(255, 78, 121) 100%);
+    background-image: -ms-linear-gradient(180deg, rgb(242, 5, 42) 0%, rgb(255, 78, 121) 100%);
     box-shadow: 0px 21px 31.92px 6.08px rgba(245, 67, 96, 0.31);
     animation: play_down 3s ease infinite;
-   
+
 }
 
 
 
-@keyframes  play_down {
+@keyframes play_down {
 
-	0% 
-	{
-		box-shadow: 0px 21px 31.92px 6.08px rgba(245, 67, 97, 0.075);
-	}
-	50% 
-	{
-		box-shadow: 0px 21px 31.92px 6.08px rgba(253, 45, 80, 0.685);
+    0% {
+        box-shadow: 0px 21px 31.92px 6.08px rgba(245, 67, 97, 0.075);
     }
-   100% 
-	{
-		box-shadow: 0px 21px 31.92px 6.08px rgba(245, 67, 97, 0.075);
-	}
+
+    50% {
+        box-shadow: 0px 21px 31.92px 6.08px rgba(253, 45, 80, 0.685);
+    }
+
+    100% {
+        box-shadow: 0px 21px 31.92px 6.08px rgba(245, 67, 97, 0.075);
+    }
 
 }
 
@@ -195,15 +196,16 @@ article.holidaysea-content-container-item {
 span.holidaysea-content-container-text {
     display: inline-block;
     flex-basis: 70%;
-    font-size: 24px;    
+    font-size: 24px;
     color: #719697;
     line-height: 1.5;
 }
+
 a.contact-popup.holiday {
     position: absolute;
     right: 0;
     bottom: -80px;
-    padding: 30px 85px 30px 85px;
+
 }
 
 /*CONTACT-FORM*/
@@ -217,8 +219,9 @@ section.contact-content {
     display: flex;
     align-content: flex-end;
     flex-flow: column wrap;
-    
+
 }
+
 h2.contact-content-title {
     margin-top: 130px;
     margin-bottom: 30px;
@@ -228,7 +231,7 @@ h2.contact-content-title {
     line-height: 1.5;
     text-shadow: 0px 0px 8px rgba(0, 74, 112, 0.86);
 }
-  
+
 p.contact-content-descr {
     margin: 0 0 40px 0;
     font-size: 24px;
@@ -243,7 +246,7 @@ input.fio {
     padding: 3.5% 0px 3.5% 8%;
     width: 62%;
     border-radius: 10px;
-    border: none;
+    border: 1px solid #719293;
     color: #a19797;
     font-size: 24px;
     background: url(img/fio.png) no-repeat 4% center #d8ececc9;
@@ -255,7 +258,7 @@ input.phone {
     padding: 3.5% 0px 3.5% 8%;
     width: 62%;
     border-radius: 10px;
-    border: none;
+    border: 1px solid #719293;
     color: #a19797;
     font-size: 24px;
     background: url(img/telephone.png) no-repeat 4% center #d8ececc9;
@@ -264,20 +267,17 @@ input.phone {
 input.contact-popup {
     margin-top: 15px;
     background: none;
-	color: #fff;
-	border: none;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: #fff;
+    border: none;
+    cursor: pointer;
     display: block;
-    font-weight: 600;
     line-height: 1;
     padding: 30px 60px;
     border-radius: 40px;
     font-size: 24px;
-    background-image: -moz-linear-gradient( 180deg, rgb(242,5,42) 0%, rgb(255,78,121) 100%);
-    background-image: -webkit-linear-gradient( 180deg, rgb(242,5,42) 0%, rgb(255,78,121) 100%);
-    background-image: -ms-linear-gradient( 180deg, rgb(242,5,42) 0%, rgb(255,78,121) 100%);
+    background-image: -moz-linear-gradient(180deg, rgb(242, 5, 42) 0%, rgb(255, 78, 121) 100%);
+    background-image: -webkit-linear-gradient(180deg, rgb(242, 5, 42) 0%, rgb(255, 78, 121) 100%);
+    background-image: -ms-linear-gradient(180deg, rgb(242, 5, 42) 0%, rgb(255, 78, 121) 100%);
     box-shadow: 0px 21px 31.92px 6.08px rgba(245, 67, 96, 0.31);
     animation: play_down 3s ease infinite;
 }
@@ -293,21 +293,35 @@ label.checkbox-tex {
     color: #fff
 }
 
-input[type="text"]::placeholder { color: #a19797;; } 
-input[type="tel"]::placeholder { color: #a19797;; } 
-input[type="email"]::placeholder { color: #a19797;; } 
-input[type="textarea"]::placeholder { color: #a19797;; } 
+input[type="text"]::placeholder {
+    color: #a19797;
+    ;
+}
+
+input[type="tel"]::placeholder {
+    color: #a19797;
+    ;
+}
+
+input[type="email"]::placeholder {
+    color: #a19797;
+    ;
+}
+
+input[type="textarea"]::placeholder {
+    color: #a19797;
+    ;
+}
 
 
-input[type="checkbox"]:checked, 
-input[type="checkbox"]:not(:checked)
-{
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked) {
     position: absolute;
     left: -9999px;
 }
 
-input[type="checkbox"]:checked + label, 
-input[type="checkbox"]:not(:checked) + label{
+input[type="checkbox"]:checked+label,
+input[type="checkbox"]:not(:checked)+label {
     display: inline-block;
     position: relative;
     padding-left: 28px;
@@ -315,8 +329,8 @@ input[type="checkbox"]:not(:checked) + label{
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked + label:before, 
-input[type="checkbox"]:not(:checked) + label:before {
+input[type="checkbox"]:checked+label:before,
+input[type="checkbox"]:not(:checked)+label:before {
     content: "";
     position: absolute;
     left: 0px;
@@ -327,14 +341,14 @@ input[type="checkbox"]:not(:checked) + label:before {
     background-color: #ffffff00;
 }
 
-input[type="checkbox"]:checked + label:before, 
-input[type="checkbox"]:not(:checked) + label:before {
+input[type="checkbox"]:checked+label:before,
+input[type="checkbox"]:not(:checked)+label:before {
     border-radius: 2px;
 }
 
 
-input[type="checkbox"]:checked + label:after, 
-input[type="checkbox"]:not(:checked) + label:after{
+input[type="checkbox"]:checked+label:after,
+input[type="checkbox"]:not(:checked)+label:after {
     content: "";
     position: absolute;
     -webkit-transition: all 0.2s ease;
@@ -343,8 +357,8 @@ input[type="checkbox"]:not(:checked) + label:after{
     transition: all 0.2s ease;
 }
 
-input[type="checkbox"]:checked + label:after, 
-input[type="checkbox"]:not(:checked) + label:after {
+input[type="checkbox"]:checked+label:after,
+input[type="checkbox"]:not(:checked)+label:after {
     left: 3px;
     top: 4px;
     width: 10px;
@@ -360,11 +374,11 @@ input[type="checkbox"]:not(:checked) + label:after {
 }
 
 
-input[type="checkbox"]:not(:checked) + label:after {
+input[type="checkbox"]:not(:checked)+label:after {
     opacity: 0;
 }
 
-input[type="checkbox"]:checked + label:after{
+input[type="checkbox"]:checked+label:after {
     opacity: 1;
 }
 
@@ -454,9 +468,9 @@ a.contact-popup.visitclub {
 }
 
 a.contact-popup.visitclub.main {
-    background-image: -moz-linear-gradient( 180deg, rgb(255,204,0) 0%, rgb(255,34,93) 100%);
-    background-image: -webkit-linear-gradient( 180deg, rgb(255,204,0) 0%, rgb(255,34,93) 100%);
-    background-image: -ms-linear-gradient( 180deg, rgb(255,204,0) 0%, rgb(255,34,93) 100%);
+    background-image: -moz-linear-gradient(180deg, rgb(255, 204, 0) 0%, rgb(255, 34, 93) 100%);
+    background-image: -webkit-linear-gradient(180deg, rgb(255, 204, 0) 0%, rgb(255, 34, 93) 100%);
+    background-image: -ms-linear-gradient(180deg, rgb(255, 204, 0) 0%, rgb(255, 34, 93) 100%);
 }
 
 span.visitclub-content-container-price.main {
@@ -488,10 +502,10 @@ ul.list-serv li {
 
 /*KURS-SHIP*/
 
-section.kurs-ship-content{
+section.kurs-ship-content {
     background: url(img/kurs-ship.png) no-repeat center center;
     min-height: 1010px;
-   
+
 }
 
 .kurs-ship-content-container {
@@ -516,7 +530,7 @@ input.email {
     padding: 3.5% 0px 3.5% 8%;
     width: 62%;
     border-radius: 10px;
-    border: none;
+    border: 1px solid #719293;
     color: #a19797;
     font-size: 24px;
     background: url(img/email-i.png) no-repeat 4% center #d8ececc9;
@@ -573,7 +587,7 @@ span.clients-content-container-dscr {
 
 #footer {
     background: url(img/footer-contact-bg.png) no-repeat center center;
-  
+
     min-height: 605px;
 }
 
@@ -591,6 +605,7 @@ img.content-info-img {
 .footer-contact-content-container {
     flex-basis: 55%;
 }
+
 .footer-contact-content-info {
     flex-basis: 32%;
 }
@@ -605,6 +620,7 @@ span.content-info-title {
     line-height: 1;
     text-shadow: 0px 0px 10px rgba(0, 55, 83, 0.47);
 }
+
 span.odessa {
     display: block;
     font-size: 30px;
@@ -622,16 +638,18 @@ span.content-info-title-contact {
     margin-bottom: 15px;
     text-shadow: 0px 0px 46px rgba(0, 74, 112, 0.59);
 }
-a.content-info{
+
+a.content-info {
     font-size: 24px;
 }
+
 a.content-info.phone {
     display: block;
     font-weight: 600;
     margin-bottom: 15px;
     text-shadow: 0px 0px 46px rgba(0, 74, 112, 0.59);
     line-height: 1.5;
-   
+
 }
 
 a.content-info.email {
@@ -640,7 +658,7 @@ a.content-info.email {
     margin-bottom: 30px;
     text-shadow: 0px 0px 46px rgba(0, 74, 112, 0.59);
     line-height: 1.5;
-  
+
 }
 
 a.content-info.facebook {
@@ -648,7 +666,7 @@ a.content-info.facebook {
     margin-bottom: 15px;
     line-height: 1.5;
     text-shadow: 0px 0px 46px rgba(0, 74, 112, 0.59);
-  
+
     font-weight: 600;
     position: relative;
     margin-left: 55px;
@@ -658,11 +676,11 @@ a.content-info.instagram {
     display: block;
     line-height: 1.5;
     text-shadow: 0px 0px 46px rgba(0, 74, 112, 0.59);
- 
+
     font-weight: 600;
     position: relative;
     margin-left: 55px;
-    
+
 }
 
 a.content-info.instagram::before {
@@ -693,22 +711,22 @@ textarea.footer-text-area {
     padding: 1% 0px 1% 8%;
     width: 62%;
     border-radius: 10px;
-    border: none;
+    border: 1px solid #719293;
     color: #a19797;
     font-size: 24px;
     background: url(img/email-i.png) no-repeat 4% 10% #d8ececc9;
 }
 
 input.email.footer {
-    background: url(img/footer-email-i.png) no-repeat 4% center #d8ececc9;  
+    background: url(img/footer-email-i.png) no-repeat 4% center #d8ececc9;
 }
 
 input.fio.footer {
-    background: url(img/footer-fio-i.png) no-repeat 4% center #d8ececc9;  
+    background: url(img/footer-fio-i.png) no-repeat 4% center #d8ececc9;
 }
 
 textarea.footer-text-area {
-    background: url(img/footer-send-i.png) no-repeat 4% 10% #d8ececc9;  
+    background: url(img/footer-send-i.png) no-repeat 4% 10% #d8ececc9;
 }
 
 .copyright {
@@ -725,27 +743,35 @@ textarea.footer-text-area {
     #header {
         position: relative;
     }
+
     #header .wrapper-w {
         align-items: center;
     }
+
     .header-logo-title {
         margin-top: 0px;
         text-shadow: 0px 0px 10.5px rgba(0, 55, 83, 0.69);
     }
+
     h1.header-content-item-title {
         text-align: center;
     }
+
     p.header-content-item-descr {
         text-align: center;
     }
+
     h2.holidaysea-content-title {
         margin: 0 0 70px 0;
     }
+
     a.contact-popup {
         position: absolute;
         left: 50%;
-        margin-left: -152px;
+        margin-left: -178px;
     }
+
+
     a.contact-popup.holiday {
         position: absolute;
         left: 50%;
@@ -753,37 +779,47 @@ textarea.footer-text-area {
         margin-left: -157px;
         bottom: -45px;
     }
+
     .contact-content-container {
         align-content: center;
     }
+
     .clients-content-container {
         justify-content: center;
     }
+
     article.clients-content-container-item {
         flex-basis: 50%;
     }
+
     #footer .wrapper {
         justify-content: center;
     }
+
     article.visitclub-content-container-item {
         flex-basis: 40%;
         margin-bottom: 30px;
     }
+
     article.visitclub-content-container-item.item-yellow {
         order: -1;
     }
+
     .visitclub-content-container {
         justify-content: space-around;
     }
 }
+
 @media (max-width: 930px) {
 
     article.holidaysea-content-container-item {
         flex-basis: 77%;
     }
+
     .holidaysea-content-container {
         justify-content: center;
     }
+
     .kurs-ship-content-container {
         align-content: center;
     }
@@ -792,30 +828,37 @@ textarea.footer-text-area {
 
 @media (max-width: 866px) {
 
-.footer-contact-content-container {
-    flex-basis: 75%;
-}
-input.fio {
-    width: 90%;
-}
-input.phone {
-    width: 90%;
-}
-input.email {
-    width: 90%;
-}
-textarea.footer-text-area {
-    width: 90%;
-}
-input.contact-popup {
-    margin: 25px auto;
-}
-#footer {
-    background-size: cover;
-}
-h2.footer-contact-content-title {
-    margin-top: 110px;
-}
+    .footer-contact-content-container {
+        flex-basis: 75%;
+    }
+
+    input.fio {
+        width: 90%;
+    }
+
+    input.phone {
+        width: 90%;
+    }
+
+    input.email {
+        width: 90%;
+    }
+
+    textarea.footer-text-area {
+        width: 90%;
+    }
+
+    input.contact-popup {
+        margin: 25px auto;
+    }
+
+    #footer {
+        background-size: cover;
+    }
+
+    h2.footer-contact-content-title {
+        margin-top: 110px;
+    }
 }
 
 @media (max-width: 830px) {
@@ -823,94 +866,121 @@ h2.footer-contact-content-title {
 
         background-size: cover;
     }
+
     #header .wrapper-w {
         justify-content: center;
         flex-flow: column;
     }
+
     .header-logo {
         order: 1;
     }
+
     .header-logo-title {
         margin-top: 45px;
     }
+
     img.header-logo-img {
         margin-top: 15px;
     }
+
     p.header-content-item-descr {
         text-shadow: 0px 0px 5.5px rgba(0, 55, 83, 0.69);
     }
+
     img.holidaysea-content-container-img {
         align-self: center;
     }
+
     a.contact-popup.visitclub {
         margin-left: -124px;
         font-size: 22px;
         padding: 25px 30px;
     }
+
     span.visitclub-content-container-text.main {
         font-size: 35px;
     }
+
     span.visitclub-content-container-text {
         font-size: 25px;
     }
+
     span.visitclub-content-container-price {
         font-size: 55px;
     }
+
     span.visitclub-content-container-price.main {
         font-size: 60px;
     }
+
     .footer-contact-content-container {
         flex-basis: 100%;
     }
+
     .footer-contact-content-container {
         flex-basis: 75%;
     }
+
     h2.footer-contact-content-title {
         text-align: center;
         font-size: 28px;
     }
-    
-  
+
+
 
     h1.header-content-item-title {
         font-size: 40px;
     }
+
     p.header-content-item-descr {
         font-size: 25px;
     }
+
     h2.holidaysea-content-title {
         font-size: 30px;
     }
+
     h2.contact-content-title {
         font-size: 30px;
     }
+
     p.contact-content-descr {
         font-size: 20px;
     }
+
     h2.visitclub-content-title {
         font-size: 30px;
     }
+
     a.contact-popup.visitclub {
         bottom: 25px;
     }
+
     span.visitclub-content-container-text.main {
         font-size: 25px;
     }
+
     span.visitclub-content-container-text {
         font-size: 20px;
     }
+
     span.visitclub-content-container-price {
         font-size: 45px;
     }
+
     span.visitclub-content-container-price.main {
         font-size: 50px;
     }
+
     h2.kurs-ship-content-title {
         font-size: 30px;
     }
+
     input.contact-popup.kurs {
         margin-top: 50px;
     }
+
     h2.clients-content-content-title {
         color: #848484;
         font-weight: 300;
@@ -918,18 +988,23 @@ h2.footer-contact-content-title {
         margin: 0px 0 60px 0;
         font-size: 30px;
     }
+
     img.clients-content-container-img {
         width: 75%;
     }
+
     article.clients-content-container-item {
         margin-bottom: 30px;
     }
+
     textarea.footer-text-area {
         background: url(img/footer-send-i.png) no-repeat 2% 10% #d8ececc9;
     }
+
     input.email.footer {
         background: url(img/footer-email-i.png) no-repeat 2% center #d8ececc9;
     }
+
     input.fio.footer {
         background: url(img/footer-fio-i.png) no-repeat 2% center #d8ececc9;
     }
@@ -939,6 +1014,7 @@ h2.footer-contact-content-title {
     article.visitclub-content-container-item {
         flex-basis: 55%;
     }
+
     article.visitclub-content-container-item.item-blue {
         height: 655px;
         background: #58d8eb;
@@ -951,43 +1027,50 @@ h2.footer-contact-content-title {
     h1.header-content-item-title {
         font-size: 30px;
     }
+
     p.header-content-item-descr {
         font-size: 20px;
     }
-    h2.holidaysea-content-title {
-        font-size: 25px;
-    }
+
     span.holidaysea-content-container-text {
         font-size: 19px;
     }
+
     article.holidaysea-content-container-item {
         flex-basis: 95%;
     }
+
 }
 
 @media (max-width:530px) {
     article.visitclub-content-container-item {
         flex-basis: 75%;
     }
+
     h2.kurs-ship-content-title {
         font-size: 25px;
     }
+
     input.email {
         padding: 3.5% 0px 3.5% 10%;
         width: 88%;
     }
+
     input.fio {
         padding: 3.5% 0px 3.5% 10%;
         width: 88%;
     }
+
     textarea.footer-text-area {
         padding: 1% 0px 1% 10%;
         width: 88%;
     }
+
     input.phone {
         padding: 3.5% 0px 3.5% 10%;
         width: 88%;
     }
+
     h2.contact-content-title {
         font-size: 25px;
     }
@@ -995,46 +1078,59 @@ h2.footer-contact-content-title {
     a.header-search-tel {
         font-size: 20px;
     }
+
     img.header-logo-img {
         margin-top: 10px;
     }
+
     .header-logo-title {
         margin-top: 35px;
     }
-    
+
     h1.header-content-item-title {
         font-size: 25px;
     }
+
     p.header-content-item-descr {
         font-size: 17px;
     }
+
     h2.holidaysea-content-title {
-        font-size: 21px;
+        font-size: 25px;
     }
+
     span.holidaysea-content-container-text {
         font-size: 17px;
     }
+
     article.holidaysea-content-container-item {
         flex-basis: 100%;
     }
+
     h2.contact-content-title {
-        font-size: 20px;
+        font-size: 25px;
     }
+
     p.contact-content-descr {
-        font-size: 17px;
+        font-size: 15px;
     }
+
     h2.visitclub-content-title {
         font-size: 25px;
     }
+
     h2.clients-content-content-title {
-        font-size: 23px;
+        font-size: 25px;
     }
+
     span.clients-content-container-name {
         font-size: 20px;
     }
+
     span.clients-content-container-dscr {
         font-size: 16px;
     }
+
     h2.footer-contact-content-title {
         text-align: center;
         font-size: 20px;
@@ -1047,100 +1143,163 @@ h2.footer-contact-content-title {
         flex-wrap: wrap;
         justify-content: center;
     }
-span.holidaysea-content-container-text {
-    flex-basis: 100%;
-    text-align: center;
-}
-article.holidaysea-content-container-item {
-    margin-bottom: 30px;
-}
-a.contact-popup.holiday {
-    bottom: -80px;
-}
-h2.kurs-ship-content-title {
-    font-size: 20px;
-}
-section.kurs-ship-content {
-    background-size: cover;
-    min-height: 0;
-}
-h2.kurs-ship-content-title {
-    margin-top: 100px;
-}
-input.email {
-    font-size: 19px;
-}
-input.fio {   
-    font-size: 19px;
-}
-input.phone {
-    font-size: 19px;
-}
-textarea.footer-text-area {
-    font-size: 19px;
-}
-textarea.footer-text-area {
-    padding: 3% 0px 1% 10%;
-}
-section.contact-content {
-    min-height: 0;
-    background-size: cover;
-}
-input.contact-popup {
-    margin: 45px auto;
-}
-#header {
-    min-height: 515px;
-}
-a.content-info {
-    font-size: 18px;
-}
-#header .wrapper-w {
-    padding: 10px 10px 40px 10px;
-}
-a.header-search-phone {
-    margin-right: 5px;
-}
-img.header-logo-img {
-    width: 60px;
-}
-a.header-search-tel {
-    font-size: 20px;
-   
-}
+
+    span.holidaysea-content-container-text {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    article.holidaysea-content-container-item {
+        margin-bottom: 30px;
+    }
+
+    a.contact-popup.holiday {
+        bottom: -80px;
+    }
+
+    h2.kurs-ship-content-title {
+        font-size: 20px;
+    }
+
+    section.kurs-ship-content {
+        background-size: cover;
+        min-height: 0;
+    }
+
+    h2.kurs-ship-content-title {
+        margin-top: 100px;
+    }
+
+    input.email {
+        font-size: 19px;
+    }
+
+    input.fio {
+        font-size: 19px;
+    }
+
+    input.phone {
+        font-size: 19px;
+    }
+
+    textarea.footer-text-area {
+        font-size: 19px;
+    }
+
+    textarea.footer-text-area {
+        padding: 3% 0px 1% 10%;
+    }
+
+    section.contact-content {
+        min-height: 0;
+        background-size: cover;
+    }
+
+    input.contact-popup {
+        margin: 45px auto;
+    }
+
+    #header {
+        min-height: 515px;
+    }
+
+    a.content-info {
+        font-size: 18px;
+    }
+
+    #header .wrapper-w {
+        padding: 10px 10px 40px 10px;
+    }
+
+    a.header-search-phone {
+        margin-right: 5px;
+    }
+
+    img.header-logo-img {
+        width: 60px;
+    }
+
+    a.header-search-tel {
+        font-size: 20px;
+
+    }
+
+    h2.holidaysea-content-title {
+        font-size: 20px;
+    }
+
+    h2.contact-content-title {
+        font-size: 20px;
+    }
+
+    h2.visitclub-content-title {
+        font-size: 20px;
+    }
+    h2.clients-content-content-title {
+        font-size: 20px;
+    }
+    span.content-info-title-contact {
+        font-size: 25px;
+    }
+    span.content-info-title {
+        font-size: 30px;
+    }
+    span.odessa {
+        font-size: 25px;
+    }
 }
 
 @media (max-width:415px) {
     .header-logo-title {
         font-size: 25px;
     }
+
     h1.header-content-item-title {
         font-size: 22px;
     }
+
     p.header-content-item-descr {
         font-size: 15px;
     }
+
     a.header-search-tel {
         font-size: 15px;
     }
+
     .header-logo-title {
         margin-left: 65px;
     }
+
     img.header-logo-img {
         width: 50px;
     }
+
     .header-contact {
         margin-left: 40px;
     }
-    h2.visitclub-content-title {
-        font-size: 20px;
-    }
+
+
+
     a.contact-popup.visitclub {
         margin-left: -107px;
         font-size: 18px;
     }
-    h2.clients-content-content-title {
-        font-size: 20px;
+
+
+
+    a.contact-popup {
+        font-size: 18px;
+        margin-left: -138px;
+        padding: 25px 50px;
+    }
+
+    a.contact-popup.holiday {
+        margin-left: -119px;
+    }
+
+    input.contact-popup {
+        padding: 25px 50px;
+        font-size: 18px;
     }
 }
 
@@ -1148,93 +1307,143 @@ a.header-search-tel {
     h1.header-content-item-title {
         font-size: 19px;
     }
+
     p.header-content-item-descr {
         margin-top: 20px;
         margin-bottom: 40px;
     }
+
     a.header-search-tel {
         font-size: 15px;
         display: block;
         margin-top: 5px;
     }
+
     a.contact-popup {
         padding: 25px 35px;
-        margin-left: -127px;
+        margin-left: -118px;
+        font-size: 17px;
     }
+
     h2.holidaysea-content-title {
         margin: 0 0 40px 0;
     }
+
     a.contact-popup.holiday {
         padding: 25px 35px;
-        margin-left: -112px;
+        margin-left: -100px;
+        font-size: 17px;
     }
+
+    input.contact-popup {
+        padding: 25px 35px;
+        font-size: 17px;
+    }
+
     h2.contact-content-title {
         font-size: 17px;
+    }
+    h2.holidaysea-content-title {
+        font-size: 17px;
+    }
+    h2.visitclub-content-title {
+        font-size: 17px;
+    }
+    img.clients-content-container-img {
+        width: 60%;
+    }
+    span.clients-content-container-name {
+        font-size: 17px;
+    }
+    span.clients-content-container-dscr {
+        font-size: 13px;
+    }
+    span.content-info-title-contact {
+        font-size: 17px;
+    }
+    span.holidaysea-content-container-text {
+        font-size: 15px;
+    }
+    a.content-info {
+        font-size: 15px;
     }
     input.fio {
         font-size: 16px;
         padding: 3.5% 0px 3.5% 13%;
         width: 85%;
     }
+
     input.phone {
         font-size: 16px;
         padding: 3.5% 0px 3.5% 13%;
         width: 85%;
     }
+
     input.email {
         font-size: 16px;
         padding: 3.5% 0px 3.5% 13%;
         width: 85%;
     }
+
     label.checkbox-tex {
         font-size: 13px;
     }
+
     a.contact-popup.visitclub {
         font-size: 22px;
         padding: 17px 20px;
     }
+
     a.contact-popup.visitclub {
         margin-left: -88.5px;
         font-size: 16px;
     }
+
     ul.list-serv li {
         padding-left: 0px;
     }
+
     h2.kurs-ship-content-title {
         font-size: 17px;
     }
-    input.contact-popup {
-        padding: 25px 35px;
-        font-size: 22px;
-    }
+
     h2.clients-content-content-title {
         font-size: 17px;
     }
+
     article.clients-content-container-item {
         flex-basis: 100%;
     }
+
     h2.footer-contact-content-title {
         text-align: center;
         font-size: 17px;
     }
+
     textarea.footer-text-area {
         font-size: 16px;
     }
+
     textarea.footer-text-area {
         padding: 3% 0px 1% 13%;
     }
+
     span.content-info-title {
         font-size: 25px;
     }
+
     span.odessa {
         font-size: 22px;
     }
-    span.content-info-title-contact {
-        font-size: 25px;
+
+    img.content-info-img {
+        margin: 15px auto 15px auto;
     }
+
     a.content-info {
-        font-size: 16px;
+        font-size: 14px;
     }
+
     .copyright {
         font-size: 9px;
     }
