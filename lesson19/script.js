@@ -64,14 +64,16 @@ min(5, -1) // вернет -1*/
 function min(a, b){
   
     if (a < b) {
-        return (`Меньше число ${a}`);
+        return a;
     } else {
-        return (`Меньше число ${b}`);
+        return b;
     }
 }
 
 //min(3,5);
-console.log(min(5,-1));
+console.log((`Меньше число ${min(5,-1)}`));
+
+
 
 
 
