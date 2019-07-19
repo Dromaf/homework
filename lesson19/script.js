@@ -10,7 +10,7 @@ function isNumberInRange(a) {
        return false;
     }
 }
-console.log(isNumberInRange(+prompt("Ввведите число", "")));
+console.log(isNumberInRange(+prompt("Введите число", "")));
 
 /*2. Сделайте функцию isEven() (even - это четный), которая параметром принимает целое число 
 и проверяет: четное оно или нет. Если четное - пусть функция возвращает true, если нечетное - false.*/
@@ -22,7 +22,7 @@ function isEven(even) {
         return false;
     }
 }
-console.log(isEven(+prompt("Ввведите число", "")));
+console.log(isEven(+prompt("Введите число", "")));
 
 /*3. Переписать код из конструкции if в switch
 
