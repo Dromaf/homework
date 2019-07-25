@@ -78,10 +78,10 @@ let obj = {
     'totalOrder' : 35500,
     'totalWeight' : 350000,
     'productBuy' : {
-        'firstProduct' : ["cup", 100, 200],
-        'secondProduct' : ["spoon", 30, 100],
-        'thirdProduct' : ["kettle", 550, 2000],
-        'fourthProduct': ["mug", 150, 400]
+        'cup' : [100, 200],
+        'spoon' : [30, 100],
+        'kettle' : [550, 2000],
+        'mug': [150, 400]
     }
 }
 
