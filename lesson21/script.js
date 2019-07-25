@@ -8,7 +8,7 @@
 function searchArrayWord(a,b){
     if (b.indexOf(a) >= 0 ){
         return true;
-        }
+    }
     else {
         console.log(b.indexOf(a));
         return false;
@@ -32,22 +32,26 @@ console.log(searchArrayWord("Кот", ['Кот', 'Собака', 'Жираф' ])
 
 /*3. Перевернуть элементы массива задом наперед. Не используя reverse(мы еще не учили его)
    var arr2 = [1, 3, 5, 6, 7, 9];*/
-   let i;
    let arr2 = [1, 3, 5, 6, 7, 9];
-   for (i = arr2.length - 1; i >= 0; --i) {
-   console.log(arr2[i]);
-}
+   let arrNoEmpty;
+   for(let i=0,j=arr2.length-1; i<j; i++,j--)
+   {
+       arrNoEmpty = arr2[j];
+       arr2[j] = arr2[i];
+       arr2[i] = arrNoEmpty;
+   }
+   console.log(arr2);
 
 
 /*4. Дан объект {html:'HTML', css: 'CSS', js: 'ECMA'}
 Нужно получить массив ключей этого объекта и отобразить в консоли.*/
 
-let lang = {html:'HTML', css: 'CSS', js: 'ECMA'}
+let lang = {html:'HTML', css: 'CSS', js: 'ECMA'}, arr3 = [];
 
 for(let key in lang){
-    console.log( 'Ключ: ' + key + '\t Значение: ' + lang[key] );
+    arr3.push(lang[key]);
 }
-
+console.log(arr3);
 /*5. Создайте объект описывающий Заказ на сайте.
 Создать можно любым из способов - даже просто написать консрукцию var obj = {...}. 
 Главное учесть, что единицы измерения обычно не записываются в объект, а 
@@ -69,35 +73,15 @@ for(let key in lang){
 
 let obj = { 
     'nameBuyer' : "Ivan",
-    'phoneBuyer' : 3099666999,
+    'phoneBuyer' : +3099666999,
     'adressBuyer' : "Vavilova 12",
     'totalOrder' : 35500,
     'totalWeight' : 350000,
     'productBuy' : {
-        'firstProduct' : {
-            'cup' : {
-            'currency' : 100,
-            'weight' : 200
-            }
-        },
-        'secondProduct' : {
-            'spoon' : {
-                'currency' : 30,
-                'weight' : 100
-            }
-        },
-        'thirdProduct' : {
-            'kettle' : {
-                'currency' : 550,
-                'weight' : 2000
-            }
-        },
-        'fourthProduct' : {
-            'mug' : {
-                'currency' : 150,
-                'weight' : 400
-            }
-        }
+        'firstProduct' : ["cup", 100, 200],
+        'secondProduct' : ["spoon", 30, 100],
+        'thirdProduct' : ["kettle", 550, 2000],
+        'fourthProduct': ["mug", 150, 400]
     }
 }
 
