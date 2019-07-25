@@ -29,7 +29,7 @@ a {
 }
 
 #header {
-    background: url(img/header-main-girl.png) no-repeat center center;
+    background: url(img/header-main-girl.jpg) no-repeat center center;
     min-height: 790px;
 }
 
@@ -151,7 +151,7 @@ a.contact-popup:hover {
 
 /*HOLIDAY CONETN*/
 section.holidaysea-content {
-    background: url(img/holiday-bg.png) no-repeat center center;
+    background: url(img/holiday-bg.jpg) no-repeat center center;
     min-height: 690px;
 }
 
@@ -211,7 +211,7 @@ a.contact-popup.holiday {
 /*CONTACT-FORM*/
 
 section.contact-content {
-    background: url(img/contact-capitan.png) no-repeat center center;
+    background: url(img/contact-capitan.jpg) no-repeat center center;
     min-height: 1000px;
 }
 
@@ -385,7 +385,7 @@ input[type="checkbox"]:checked+label:after {
 /*CLUB-VISIT*/
 
 section.visitclub-content {
-    background: url(img/fabulous-club-bg.png) no-repeat top center;
+    background: url(img/fabulous-club-bg.jpg) no-repeat top center;
     min-height: 854px;
 }
 
@@ -586,7 +586,7 @@ span.clients-content-container-dscr {
 /*FOOTER*/
 
 #footer {
-    background: url(img/footer-contact-bg.png) no-repeat center center;
+    background: url(img/footer-contact-bg.jpg) no-repeat center center;
 
     min-height: 605px;
 }
