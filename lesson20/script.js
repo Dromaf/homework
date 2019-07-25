@@ -29,17 +29,13 @@ console.log(fib(30));
 Посчитайте количество итераций, необходимых для этого (итерация -
 это проход цикла), и запишите его в переменную num.*/
 
-function nums(n) {
-    let num = 0;
-    while (n > 50) {
+
+let num = 0, n = 1000;
+while (n > 50) {
         n /= 2;  
         num++;  
-    if(n < 50){
-        console.log(num);
-        console.log(n);
-        break;
-    }} 
-}
-console.log(nums(1000));
+} 
+
+console.log(num);
 
 
