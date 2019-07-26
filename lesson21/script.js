@@ -75,8 +75,9 @@ let obj = {
     'nameBuyer' : "Ivan",
     'phoneBuyer' : +3099666999,
     'adressBuyer' : "Vavilova 12",
-    'totalOrder' : 35500,
-    'totalWeight' : 350000,
+    'totalOrder' : '830UAH',
+    'totalWeight' : 2700,
+    
     'productBuy' : [
         {
             'name': 'cup',
@@ -92,7 +93,8 @@ let obj = {
             'name': 'kettle',
             'price': '550UAH',
             'weight': 2000
-        }, 
+        },
+         
         {
             'name': 'mug',
             'price': '150UAH',
@@ -102,3 +104,5 @@ let obj = {
 }
 
 console.log(obj);
+
+
