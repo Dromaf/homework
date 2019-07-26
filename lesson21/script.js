@@ -77,12 +77,28 @@ let obj = {
     'adressBuyer' : "Vavilova 12",
     'totalOrder' : 35500,
     'totalWeight' : 350000,
-    'productBuy' : {
-        'cup' : [100, 200],
-        'spoon' : [30, 100],
-        'kettle' : [550, 2000],
-        'mug': [150, 400]
-    }
+    'productBuy' : [
+        {
+            'name': 'cup',
+            'price': '5UAH',
+            'weight': 200
+        }, 
+        {
+            'name': 'spoon',
+            'price': '30UAH',
+            'weight': 100
+        }, 
+        {
+            'name': 'kettle',
+            'price': '550UAH',
+            'weight': 2000
+        }, 
+        {
+            'name': 'mug',
+            'price': '150UAH',
+            'weight': 400
+        }
+    ]
 }
 
 console.log(obj);
