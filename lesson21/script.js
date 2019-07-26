@@ -77,7 +77,6 @@ let obj = {
     'adressBuyer' : "Vavilova 12",
     'totalOrder' : '830UAH',
     'totalWeight' : 2700,
-    
     'productBuy' : [
         {
             'name': 'cup',
