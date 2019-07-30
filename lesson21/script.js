@@ -5,7 +5,7 @@
    2) Массив в котором находятся элементы со словами. Например ['Кот', 'Собака', 'Жираф' ]
 Функция должна вернуть true или false*/
 
-function searchArrayWord(a,b){
+/*function searchArrayWord(a,b){
     if (b.indexOf(a) >= 0 ){
         return true;
     }
@@ -16,7 +16,18 @@ function searchArrayWord(a,b){
     }
 }
 
-console.log(searchArrayWord("Кот", ['Кот', 'Собака', 'Жираф' ]));
+console.log(searchArrayWord("Кот", ['Кот', 'Собака', 'Жираф' ]));*/
+
+function searchArrayWord(a, b) {
+
+    for (var i = 0; i < b.length; i++) {
+      if (b[i] == a) 
+      return true;
+    }
+    return false;
+}
+
+console.log(searchArrayWord("Жираф", ['Кот', 'Собака', 'Жираф' ]));
 
 /*2. Определить среднее арифмитическое чисел из массива.
    var arr = [1, 2, 3, 7, 6, 9];*/
@@ -75,28 +86,28 @@ let obj = {
     'nameBuyer' : "Ivan",
     'phoneBuyer' : +3099666999,
     'adressBuyer' : "Vavilova 12",
-    'totalOrder' : '830UAH',
+    'totalOrder' : '830',
     'totalWeight' : 2700,
     'productBuy' : [
         {
             'name': 'cup',
-            'price': '5UAH',
+            'price': '5',
             'weight': 200
         }, 
         {
             'name': 'spoon',
-            'price': '30UAH',
+            'price': '30',
             'weight': 100
         }, 
         {
             'name': 'kettle',
-            'price': '550UAH',
+            'price': '550',
             'weight': 2000
         },
          
         {
             'name': 'mug',
-            'price': '150UAH',
+            'price': '150',
             'weight': 400
         }
     ]
