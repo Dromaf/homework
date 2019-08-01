@@ -40,7 +40,14 @@ a {
 .header-logo-title {
     font-size: 36px;
     line-height: 1;
-    text-shadow: 0px 0px 3.5px rgba(0, 55, 83, 0.69);
+    text-shadow: 0px 0px 0.5px rgba(0, 55, 83, 0.69),
+    0px 0px 1.5px rgba(0, 55, 83, 0.69),
+    0px 0px 2.5px rgba(0, 55, 83, 0.69),
+    0px 0px 3.5px rgba(0, 55, 83, 0.69),
+    0px 0px 4.5px rgba(0, 55, 83, 0.69),
+    0px 0px 5.5px rgba(0, 55, 83, 0.69),
+    0px 0px 6.5px rgba(0, 55, 83, 0.69),
+    0px 0px 7.5px rgba(0, 55, 83, 0.69);
     text-transform: uppercase;
     font-weight: 300;
     color: #fff;
@@ -83,7 +90,7 @@ a.header-search-tel {
     color: #2a768f;
     vertical-align: middle;
     display: inline-block;
-    text-shadow: 0px 1px 0.98px rgba(79, 90, 96, 0.16);
+    text-shadow: 0px 1px 0.98px rgba(128, 205, 247, 0.16);
 }
 
 a.header-search-tel:hover {
@@ -108,7 +115,14 @@ p.header-content-item-descr {
     font-weight: 300;
     color: #fff;
     line-height: 1.5;
-    text-shadow: 0px 0px 3.5px rgba(0, 55, 83, 0.69);
+    text-shadow: 0px 0px 0.5px rgba(0, 55, 83, 0.69),
+    0px 0px 1.5px rgba(0, 55, 83, 0.69),
+    0px 0px 2.5px rgba(0, 55, 83, 0.69),
+    0px 0px 3.5px rgba(0, 55, 83, 0.69),
+    0px 0px 4.5px rgba(0, 55, 83, 0.69),
+    0px 0px 5.5px rgba(0, 55, 83, 0.69),
+    0px 0px 6.5px rgba(0, 55, 83, 0.69),
+    0px 0px 7.5px rgba(0, 55, 83, 0.69);
 }
 
 a.contact-popup {
