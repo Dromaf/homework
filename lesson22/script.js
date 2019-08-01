@@ -26,9 +26,8 @@ arr = [4, 3, 5, 5, 0, 4, 8, 6];
 result = arr.reduceRight(function(sum, current ) {
     if (current == 0) {
 		return false;
-	} else {
-		return sum + current;
-	}
+  } 
+  return sum + current;
   }, 0);
   
 console.log( result );
@@ -39,12 +38,11 @@ summArguments(10); // 10 */
 
 
 function summArguments() {
-    let arr2 = [];
-    arguments.reduce = arr2.reduce;
-    return arguments.reduce(function(a, b) {
-      return a + b;
-    });
-  }
-  
-console.log( summArguments(10, 1, 2, 5) );
-console.log( summArguments(10) );
+  let summ = 0;
+  for(let i = 0; i < arguments.length; i++){
+  summ+=arguments[i];
+}
+  return summ;
+}
+  console.log(summArguments(10, 1, 2, 5) );
+  console.log(summArguments(10));
