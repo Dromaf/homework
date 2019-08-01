@@ -3,16 +3,15 @@
 /* TASK 1 */
 let time = new Date();
 
-let getHours = 24 - time.getHours();
-let minutes =  60 - time.getMinutes();
-let seconds =  60 - time.getSeconds();
+let getHours = 24 - time.getHours()-1;
+let minutes =  60 - time.getMinutes()-1;
+let seconds =  60 - time.getSeconds()-1;
 
 console.log(`До конца дня осталось ${getHours} : ${minutes} : ${seconds}` );
-
 /* TASK 2 */
 
 let time1 = new Date();
-let time2 = new Date(time1.getFullYear(), 0, 1, 0, 0);
+let time2 = new Date(time1.getFullYear(), time1.getMonth(), time1.getDate());
 
 let res = Math.round((time1-time2) / 1000);
 
