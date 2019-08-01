@@ -3,9 +3,9 @@
 /* TASK 1 */
 let time = new Date();
 
-let getHours = 24 - time.getHours()-1;
-let minutes =  60 - time.getMinutes()-1;
-let seconds =  60 - time.getSeconds()-1;
+let getHours = 23 - time.getHours();
+let minutes =  59 - time.getMinutes();
+let seconds =  59 - time.getSeconds();
 
 console.log(`До конца дня осталось ${getHours} : ${minutes} : ${seconds}` );
 /* TASK 2 */
