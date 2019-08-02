@@ -21,16 +21,17 @@ result = result.map(function(item) {
 Нужно найти сумму элементов от начала и до нуля. (В примере это первые 4 элемента)
 Использовать функция reduce */
 
-arr = [4, 3, 5, 5, 0, 4, 8, 6];
-
-result = arr.reduceRight(function(sum, current ) {
-    if (current == 0) {
-		return false;
+let array = [4, 3, 5, 5, 0, 4, 8, 6];
+let otvet = 0;
+let results = array.reduce(function(sum, current ) {
+    if (current === 0) {
+      otvet = sum;
   } 
   return sum + current;
   }, 0);
   
-console.log( result );
+console.log( otvet );
+
 
 /*3. Напишите функцию summArguments, которая сложит все аргументы переданные в функцию. Например
 summArguments(10, 1, 2, 5); // 18
@@ -40,7 +41,7 @@ summArguments(10); // 10 */
 function summArguments() {
   let summ = 0;
   for(let i = 0; i < arguments.length; i++){
-  summ+=arguments[i];
+  summ += arguments[i];
 }
   return summ;
 }
