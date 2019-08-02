@@ -1,13 +1,13 @@
 'use strict';
 
 /* TASK 1 */
-let time = new Date();
 
-let getHours = 23 - time.getHours();
-let minutes =  59 - time.getMinutes();
-let seconds =  59 - time.getSeconds();
+  let todayDate = new Date();
+  let newDate = new Date(todayDate.getFullYear(), todayDate.getMonth(), todayDate.getDate()+1);
+  let minutes = newDate - todayDate;
+  minutes = Math.ceil(minutes / 60000);
 
-console.log(`До конца дня осталось ${getHours} : ${minutes} : ${seconds}` );
+console.log(minutes);
 /* TASK 2 */
 
 let time1 = new Date();
