@@ -31,7 +31,7 @@ let results = array.reduce(function(sum, current ) {
   }, 0);  
 if (array[0] == 0) { 
   console.log(0);  
-} console.log( otvet );
+} else {console.log( otvet );}
 
 
 /*3. Напишите функцию summArguments, которая сложит все аргументы переданные в функцию. Например
