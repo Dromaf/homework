@@ -170,7 +170,7 @@ a.contact-popup:hover {
 
 /*HOLIDAY CONETN*/
 section.holidaysea-content {
-    background: url(img/holiday-bg.jpg) no-repeat center center;
+    background: url(img/holiday-bg.png) no-repeat center center;
     min-height: 690px;
 }
 
@@ -402,7 +402,7 @@ input[type="checkbox"]:checked+label:after {
 /*CLUB-VISIT*/
 
 section.visitclub-content {
-    background: url(img/fabulous-club-bg.jpg) no-repeat top center;
+    background: url(img/fabulous-club-bg.png) no-repeat top center;
     min-height: 854px;
 }
 
