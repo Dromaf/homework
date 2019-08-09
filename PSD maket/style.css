@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 42px;
+}
+
+
 .wrapper {
     max-width: 1170px;
     margin: 0 auto;
@@ -178,7 +183,6 @@ h2.holidaysea-content-title {
     font-weight: 300;
     text-align: center;
     margin: 70px 0 70px 0;
-    font-size: 42px;
 }
 
 .holidaysea-content-container {
@@ -239,7 +243,6 @@ section.contact-content {
 h2.contact-content-title {
     margin-top: 130px;
     margin-bottom: 30px;
-    font-size: 42px;
     font-weight: normal;
     color: #fff;
     line-height: 1.5;
@@ -404,13 +407,11 @@ section.visitclub-content {
 }
 
 h2.visitclub-content-title {
-    color: #709596;
+    color: #848484;
     font-weight: 300;
     line-height: 1.5;
     text-align: center;
     margin: 0 0 40px 0;
-    text-shadow: 0px 0px 3.5px #848484a1;
-    font-size: 42px;
 }
 
 .visitclub-content-container {
@@ -531,7 +532,6 @@ section.kurs-ship-content {
 h2.kurs-ship-content-title {
     margin-top: 255px;
     margin-bottom: 50px;
-    font-size: 42px;
     font-weight: 300;
     color: #fff;
     line-height: 1.75;
@@ -566,7 +566,6 @@ h2.clients-content-content-title {
     font-weight: 300;
     text-align: center;
     margin: 0px 0 60px 0;
-    font-size: 42px;
 }
 
 .clients-content-container {
@@ -1316,7 +1315,11 @@ textarea.footer-text-area {
         font-size: 18px;
     }
 }
-
+@media (max-width:430px) {
+    article.visitclub-content-container-item {
+        flex-basis: 85%;
+    }
+}
 @media (max-width:345px) {
     h1.header-content-item-title {
         font-size: 19px;
